@@ -31,11 +31,16 @@
 
     let b= null;
 
+    let c;
+    console.log(c);
+    console.log(typeof c);
+
     console.log(typeof a); //string
     console.log(typeof b); //object
 
-    //data types: number, string, boolean, undefined, null, bigint, symbol;
     //primitive data types
+    //data types: number, string, boolean, undefined, null, bigint, symbol;
+    
     //non-primitive data types:- objects, arrarys, functions
     //object: collection of values(which are primitive data types)
     //objects generally declared by const
@@ -48,6 +53,7 @@ const student={
     cgpa : 8.2,
     isPass : true,
     //key : value,
+    //student is the object
 };
 
 console.log(student.age);
